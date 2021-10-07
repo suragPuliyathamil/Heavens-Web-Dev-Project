@@ -59,7 +59,7 @@
 }
 
 .container{
-	max-width: 1000px;
+	max-width: 1100px;
 	margin: 0 auto;
 	overflow: auto;
 	padding: 0 40px;
@@ -159,7 +159,7 @@ li{
 	content: '';
 	position: absolute;
 	height: 100px;
-	bottom:-70px;
+	bottom:-89px;
 	right: 0;
 	left: 0;
 	background-color: var(--text-color);
@@ -210,15 +210,83 @@ li{
 
 /* Cloud */
 .cloud{
+	grid-template-columns: 4fr 3fr;
 	background-color: var(--primary-color);
 	color: #fff;
 }
 
-.btn .cloud{
-	background-color: red;
+.cloud a{
+	background-color: var(--dark-color);
+}
+
+.languages .card {
+	margin: 18px 10px 40px;
+	transition: transform 0.2s ease-in;
+}
+
+.languages .card:hover{
+	transform: translateY(3px);
+	transform: scale(1.1);;
+}
+
+.languages .card h4 {
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+.languages .flex{
+	flex-wrap: wrap;
+}
+.footer .social a{
+	margin: 0 10px;
+}
+
+.footer ul {
+	display: flex;
+	flex-direction: column;
+}
+
+.head img{
+	width: 200px;
+	justify-self: flex-end;
+	margin-left: 20px; 
+} 
+
+
+.platform img {
+	width: 300px;
+	justify-self: flex-end;
+	margin-left: 20px; 
+}
+
+.platform {
+	box-shadow: 0 -2px 10px rgba(0,0,0,0.3);
 }
 
 
+.platform .grid {
+	align-items: center;
+	justify-content: center;
+	justify-self: center;
+}
+
+
+.features-main .card i {
+	margin-right: 20px;
+}
+.features-main .card {
+ 	justify-content: flex-start;
+}
+.features-main .container{
+	grid-gap: 20px ;
+}
+.features-main .container > *:first-child{
+	grid-column: 1/span 3;
+}
+
+.features-main .container > *:nth-child(2){
+	grid-column: 1/span 2;
+}
 
 
 
