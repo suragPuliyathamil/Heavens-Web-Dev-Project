@@ -52,6 +52,7 @@
 	padding: 15px;
 	margin: 10px;
 	color: #333;
+
 }
 
 .demo-request{
@@ -81,6 +82,7 @@
 	justify-content: center;
 	align-items: center;
 	height: 100%;
+	padding-bottom: 10px;
 }
 
 
@@ -177,6 +179,7 @@ li{
 
 .grid-3 {
 	grid-template-columns: repeat(3,1fr);
+	padding-bottom: 20px;
 }
 
 .stats-heading{
@@ -288,6 +291,64 @@ li{
 	grid-column: 1/span 2;
 }
 
+.head-docs img{
+	width: 200px;
+	justify-self: flex-end;
+	margin-left: 20px; 
+} 
+
+hr {
+	width: 85%;
+	margin-left: 10px;
+	border: 0.5px solid #e0e0e0;
+}
+
+.main .grid{
+	grid-template-columns: 1fr 2fr;
+	align-items: flex-start;
+}
+
+.main .left{
+	background-color: var(--light-color)
+}
+
+.main .left h4{
+	font-size: 20px;
+	font-weight: 5;
+}
+
+.main .right{
+	padding: 10 30px;
+	margin: 10 10px;
+}
+
+.main .right h1{
+	margin: 20px 0;
+	font-size: 20px;
+}
+
+.main .right p{
+	font-size: 1rem;
+}
+
+.main .alert{
+	color: white;
+	border: transparent;
+	border-radius: 5px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	grid-gap: 10px;
+	padding-left: 10px;
+	background-color: red;
+}
+
+.main .code {
+	color: white;
+	background-color: #333;
+	padding: 10px 10px;
+	border-radius: 5px;
+}
 
 
 
